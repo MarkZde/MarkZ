@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PINF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PINF>
+    <ATTRIBUTES>
+     <INTF_NAME>ZKRAM_FPIF</INTF_NAME>
+     <DESCRIPT>MarkZ - Filter Package Interface</DESCRIPT>
+     <RESTRICTED>X</RESTRICTED>
+     <DEFAULT_IF>S</DEFAULT_IF>
+    </ATTRIBUTES>
+    <ELEMENTS>
+     <SCOMELDTLN>
+      <INTF_NAME>ZKRAM_FPIF</INTF_NAME>
+      <ELEM_TYPE>PCHK</ELEM_TYPE>
+      <ELEM_KEY>EVERYTHING</ELEM_KEY>
+     </SCOMELDTLN>
+    </ELEMENTS>
+   </PINF>
+  </asx:values>
+ </asx:abap>
+</abapGit>

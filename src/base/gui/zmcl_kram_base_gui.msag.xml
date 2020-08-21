@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMCL_KRAM_BASE_GUI</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Base (SAP GUI): Message Class</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMCL_KRAM_BASE_GUI</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>An exception occurred.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMCL_KRAM_BASE_GUI</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Transaction code &amp;1: No authorization!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMCL_KRAM_BASE_GUI</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Transaction code &amp;1 is not valid.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
