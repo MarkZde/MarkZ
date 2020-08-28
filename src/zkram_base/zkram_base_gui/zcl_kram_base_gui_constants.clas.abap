@@ -9,6 +9,7 @@ CLASS zcl_kram_base_gui_constants DEFINITION
     CONSTANTS:
       BEGIN OF batch_input_identifiers,
         ok_code TYPE string VALUE 'BDC_OKCODE',
+        cursor  TYPE string VALUE 'BDC_CURSOR',
       END OF batch_input_identifiers.
 protected section.
 private section.
