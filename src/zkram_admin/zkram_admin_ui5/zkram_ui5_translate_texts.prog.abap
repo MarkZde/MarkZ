@@ -28,7 +28,7 @@ CLASS lcl_kram_ui5_translate_texts IMPLEMENTATION.
                                                  dynpro   = '1000'
                                                  dynbegin = zcl_kram_base_constants=>false
                                                  fnam     = zcl_kram_base_gui_constants=>batch_input_identifiers-ok_code
-                                                 fval     = 'S' )
+                                                 fval     = 'S' ) " short texts
                                                ( program  = 'SAPMSSY0'
                                                  dynpro   = '0120'
                                                  dynbegin = zcl_kram_base_constants=>true )
@@ -36,7 +36,7 @@ CLASS lcl_kram_ui5_translate_texts IMPLEMENTATION.
                                                  dynpro   = '0120'
                                                  dynbegin = zcl_kram_base_constants=>false
                                                  fnam     = zcl_kram_base_gui_constants=>batch_input_identifiers-cursor
-                                                 fval     = '02/04' )
+                                                 fval     = '02/04' ) " meta objects
                                                ( program  = 'SAPMSSY0'
                                                  dynpro   = '0120'
                                                  dynbegin = zcl_kram_base_constants=>false
@@ -49,7 +49,7 @@ CLASS lcl_kram_ui5_translate_texts IMPLEMENTATION.
                                                  dynpro   = '0120'
                                                  dynbegin = zcl_kram_base_constants=>false
                                                  fnam     = zcl_kram_base_gui_constants=>batch_input_identifiers-cursor
-                                                 fval     = '14/15' )
+                                                 fval     = '14/15' ) " tables (meta)
                                                ( program  = 'SAPMSSY0'
                                                  dynpro   = '0120'
                                                  dynbegin = zcl_kram_base_constants=>false
@@ -61,18 +61,18 @@ CLASS lcl_kram_ui5_translate_texts IMPLEMENTATION.
                                                ( program  = 'SAPMTRAN'
                                                  dynpro   = '2000'
                                                  dynbegin = zcl_kram_base_constants=>false
-                                                 fnam     = 'DYNP_2000-OBJNAME_PART1'
+                                                 fnam     = 'DYNP_2000-OBJNAME_PART1' " object name
                                                  fval     = 'WDY_CONF_USERT2' )
                                                ( program  = 'SAPMTRAN'
                                                  dynpro   = '2000'
                                                  dynbegin = zcl_kram_base_constants=>false
-                                                 fnam     = 'DYNP_2000-SLANG'
-                                                 fval     = 'enUS' )
+                                                 fnam     = 'DYNP_2000-SLANG' " source language
+                                                 fval     = 'enUS' ) " English
                                                ( program  = 'SAPMTRAN'
                                                  dynpro   = '2000'
                                                  dynbegin = zcl_kram_base_constants=>false
-                                                 fnam     = 'DYNP_2000-TLANG'
-                                                 fval     = 'deDE' )
+                                                 fnam     = 'DYNP_2000-TLANG' " target language
+                                                 fval     = 'deDE' ) " German
                                                ( program  = 'SAPMTRAN'
                                                  dynpro   = '2000'
                                                  dynbegin = zcl_kram_base_constants=>false
