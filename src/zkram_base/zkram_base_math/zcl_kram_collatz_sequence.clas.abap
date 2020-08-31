@@ -59,19 +59,19 @@ ENDMETHOD.
 
 METHOD create_sequence.
 
-  APPEND iv_starting_integer TO mt_collatz_sequence.
+  INSERT iv_starting_integer INTO TABLE mt_collatz_sequence.
 
   DATA(lv_current_integer) = iv_starting_integer.
 
   WHILE lv_current_integer <> 1.
 
-    IF zcl_kram_base_math_service=>zif_kram_base_math_integers~is_even( lv_current_integer ) = zcl_kram_base_constants=>true.
+    IF zcl_kram_base_math_service=>zif_kram_base_math_integer~is_even( lv_current_integer ) = zcl_kram_base_constants=>true.
       lv_current_integer = lv_current_integer / 2.
     ELSE. " is odd
       lv_current_integer = 3 * lv_current_integer + 1.
     ENDIF.
 
-    APPEND lv_current_integer TO mt_collatz_sequence.
+    INSERT lv_current_integer INTO TABLE mt_collatz_sequence.
 
   ENDWHILE.
 

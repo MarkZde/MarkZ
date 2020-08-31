@@ -18,7 +18,7 @@ CLASS lcl_kram_ui5_translate_texts IMPLEMENTATION.
   METHOD run.
 
     TRY.
-        zcl_kram_base_gui_servive=>zif_kram_base_gui_transactions~call_transaction_02(
+        zcl_kram_base_gui_servive=>zif_kram_base_gui_transaction~call_transaction_02(
           EXPORTING
             iv_transaction_code     = 'SE63'
             it_batch_input          = VALUE #( ( program  = 'SAPMTRAN'

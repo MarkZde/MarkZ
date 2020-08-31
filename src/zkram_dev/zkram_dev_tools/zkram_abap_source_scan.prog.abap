@@ -18,7 +18,7 @@ CLASS lcl_kram_abap_source_scan IMPLEMENTATION.
   METHOD run.
 
     TRY.
-        zcl_kram_base_gui_servive=>zif_kram_base_gui_transactions~call_transaction_02(
+        zcl_kram_base_gui_servive=>zif_kram_base_gui_transaction~call_transaction_02(
           EXPORTING
             iv_transaction_code     = 'SA38'
             it_set_get_parameters   = VALUE #( ( parameter_id    = 'RID'

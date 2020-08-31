@@ -5,7 +5,7 @@ class ZCL_KRAM_BASE_MATH_SERVICE definition
 
 public section.
 
-  interfaces ZIF_KRAM_BASE_MATH_INTEGERS .
+  interfaces ZIF_KRAM_BASE_MATH_INTEGER .
 protected section.
 private section.
 ENDCLASS.
@@ -15,7 +15,7 @@ ENDCLASS.
 CLASS ZCL_KRAM_BASE_MATH_SERVICE IMPLEMENTATION.
 
 
-METHOD zif_kram_base_math_integers~is_even.
+METHOD zif_kram_base_math_integer~is_even.
 
   IF iv_integer MOD 2 = 0.
     rv_result_x = zcl_kram_base_constants=>true.
@@ -24,7 +24,7 @@ METHOD zif_kram_base_math_integers~is_even.
 ENDMETHOD.
 
 
-METHOD zif_kram_base_math_integers~is_odd.
+METHOD zif_kram_base_math_integer~is_odd.
 
   IF iv_integer MOD 2 <> 0.
     rv_result_x = zcl_kram_base_constants=>true.

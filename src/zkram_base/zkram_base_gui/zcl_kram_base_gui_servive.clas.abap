@@ -5,7 +5,7 @@ class ZCL_KRAM_BASE_GUI_SERVIVE definition
 
 public section.
 
-  interfaces ZIF_KRAM_BASE_GUI_TRANSACTIONS .
+  interfaces ZIF_KRAM_BASE_GUI_TRANSACTION .
 protected section.
 private section.
 ENDCLASS.
@@ -15,7 +15,7 @@ ENDCLASS.
 CLASS ZCL_KRAM_BASE_GUI_SERVIVE IMPLEMENTATION.
 
 
-METHOD zif_kram_base_gui_transactions~call_transaction_01.
+METHOD zif_kram_base_gui_transaction~call_transaction_01.
 
   CHECK iv_transaction_code IS NOT INITIAL.
 
@@ -49,7 +49,7 @@ METHOD zif_kram_base_gui_transactions~call_transaction_01.
 ENDMETHOD.
 
 
-METHOD zif_kram_base_gui_transactions~call_transaction_02.
+METHOD zif_kram_base_gui_transaction~call_transaction_02.
 
   CHECK iv_transaction_code IS NOT INITIAL.
 
