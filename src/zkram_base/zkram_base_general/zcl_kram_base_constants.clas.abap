@@ -10,8 +10,9 @@ CLASS zcl_kram_base_constants DEFINITION
     CONSTANTS false TYPE abap_bool VALUE abap_false ##NO_TEXT.
     CONSTANTS:
       BEGIN OF message_classes,
-        base     TYPE symsgid VALUE 'ZMCL_KRAM_BASE',
-        base_gui TYPE symsgid VALUE 'ZMCL_KRAM_BASE_GUI',
+        base      TYPE symsgid VALUE 'ZMCL_KRAM_BASE',
+        base_gui  TYPE symsgid VALUE 'ZMCL_KRAM_BASE_GUI',
+        base_math TYPE symsgid VALUE 'ZMCL_KRAM_BASE_MATH',
       END OF message_classes.
 protected section.
 private section.
