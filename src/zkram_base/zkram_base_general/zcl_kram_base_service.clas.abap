@@ -1,7 +1,7 @@
 class ZCL_KRAM_BASE_SERVICE definition
   public
   final
-  create public .
+  create private .
 
 public section.
 
