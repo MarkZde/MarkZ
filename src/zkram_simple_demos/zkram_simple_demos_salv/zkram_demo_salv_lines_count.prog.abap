@@ -17,7 +17,7 @@ INITIALIZATION.
 
   CONSTANTS lv_string_number_of_lines TYPE string VALUE 'Number of lines:' ##NO_TEXT.
 
-CLASS lcl_event_handler DEFINITION.
+CLASS lcl_event_handler DEFINITION FINAL.
 
   PUBLIC SECTION.
 
