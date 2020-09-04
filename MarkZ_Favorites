@@ -1,0 +1,76 @@
+  0000100029                                                Menu Search                                                                                                                         
+  0000100047                                                System Administration                                                                                                               
+  0000100034                                                Database Administration                                                                                                             
+  0000100030                                                Spool / Printing                                                                                                                    
+  0000100045                                                Message Server                                                                                                                      
+  0000100066                                                Transport Management                                                                                                                
+  0000100031                                                Internet Communication                                                                                                              
+  0000100063                                                Flight Data Model                                                                                                                   
+  0000100032                                                User Administration                                                                                                                 
+  0000100033                                                Lock Administration                                                                                                                 
+  0000100073                                                Fiori Launchpad                                                                                                                     
+TR0000100012ICON                                            Display Icons                                                                                                                       
+TR0000100015SMW0                                            SAP Web Repository                                                                                                                  
+  0000100035                                                SM                                                                                                                                  
+TR0000100085SE03                                            Transport Organizer Tools                                                                                                           
+TR0000100065SE09                                            Transport Organizer                                                                                                                 
+TR0000100014SE11                                            ABAP Dictionary Maintenance                                                                                                         
+TR0000100013SE16                                            Data Browser                                                                                                                        
+TR0000100054SE38                                            ABAP Editor                                                                                                                         
+TR0000100011SE61                                            SAP Documentation                                                                                                                   
+TR0000100079SE63                                            Translation Editor                                                                                                                  
+TR0000100016SE80                                            Object Navigator                                                                                                                    
+TR0000100026SE93                                            Maintain Transaction Codes                                                                                                          
+TR0000100080WEBGUI                                          Start Browser with WebGUI                                                                                                           
+TR0000100072/UI2/FLP                                        SAP Fiori Launchpad                                                                                                                 
+  0000100055                                                MarkZ' Transactions                                                                                                                 
+TR0002900018SEARCH_SAP_MENU                                 Find in SAP Menu                                                                                                                    
+TR0002900019SEARCH_USER_MENU                                Find in User Menu                                                                                                                   
+TR0003000028SPAD                                            Spool Administration                                                                                                                
+TR0003000036SP02                                            Display Spool Requests                                                                                                              
+TR0003100051SMICM                                           ICM Monitor                                                                                                                         
+TR0003100020SICF                                            HTTP Service Hierarchy Maintenance                                                                                                  
+TR0003100052SIAC_PUBLISH_ALL_INT                            Publish All ITS Services                                                                                                            
+TR0003100062STRUST                                          Trust Manager                                                                                                                       
+TR0003100070SOAMANAGER                                      SOA Manager                                                                                                                         
+TR0003200010SU01                                            User Maintenance                                                                                                                    
+TR0003200041SU10                                            User Mass Maintenance                                                                                                               
+TR0003200037SU3                                             Maintain Users Own Data                                                                                                             
+TR0003200021PFCG                                            Role Maintenance                                                                                                                    
+TR0003300039SM12                                            Display and Delete Locks                                                                                                            
+TR0003300025SMENQ                                           Enqueue Administration                                                                                                              
+TR0003400009DBACOCKPIT                                      Start DBA Cockpit                                                                                                                   
+TR0003500044SM02                                            System Messages                                                                                                                     
+TR0003500024SM04                                            Logons to an AS Instance                                                                                                            
+TR0003500027SM12                                            Display and Delete Locks                                                                                                            
+TR0003500043SM13                                            Administrate Update Records                                                                                                         
+TR0003500042SM21                                            system log                                                                                                                          
+TR0003500017SM30                                            Call View Maintenance                                                                                                               
+TR0003500040SM36                                            Schedule Background Job                                                                                                             
+TR0003500038SM37                                            Overview of job selection                                                                                                           
+TR0003500023SM50                                            Work Processes of AS Instance                                                                                                       
+TR0003500022SM51                                            Started AS Instances                                                                                                                
+TR0003500053SM59                                            RFC Destinations (Display/Maintain)                                                                                                 
+TR0004500046SMMS                                            Message-Server-Monitor                                                                                                              
+TR0004700048RZ10                                            Maintain Profile Parameters                                                                                                         
+TR0004700049RZ11                                            Profile Parameter Maintenance                                                                                                       
+TR0005500056ZKRAM_HELLO_WORLD                               "Hello, world!" Transaction                                                                                                         
+TR0005500057ZKRAM_SOURCE_SCAN                               ABAP Source Scan                                                                                                                    
+TR0005500061ZKRAM_PACK_CHECK_PAR                            Display/Maintain Package Check Par.                                                                                                 
+TR0005500058ZKRAM_I18N_LANG_CONF                            i18n Language Configuration                                                                                                         
+TR0005500059ZKRAM_SAPHTTP_CHECK                             RFC Destination SAPHTTP: Check                                                                                                      
+TR0005500060ZKRAM_SAPFTP_CHECK                              RFC Destination SAPFTP: Check                                                                                                       
+TR0005500087ZKRAM_UI2_DELCACHE_G                            Delete (invalidate) glob. UI2 caches                                                                                                
+TR0005500088ZKRAM_UI2_DELCACHE_L                            Delete (invalidate) local UI2 caches                                                                                                
+TR0005500071ZKRAM_UI5_DEPLOY_APP                            Deploy SAPUI5 Web App                                                                                                               
+TR0005500084ZKRAM_UI5_TRANSL_TXT                            Translate SAPUI5 App Texts                                                                                                          
+TR0005500086ZKRAM_DEMO_SALV_01                              Demo: SALV - Lines Count (Automatic)                                                                                                
+TR0006300064BC_DATA_GEN                                     Create Data for Flight Data Model                                                                                                   
+TR0006600067STMS                                            Transport Management System                                                                                                         
+TR0006600068SPDD                                            Display Modified DDIC Objects                                                                                                       
+TR0006600069SPAU                                            Display Modified DE Objects                                                                                                         
+TR0007300083/UI2/INVAL_CACHES                               Global Invalidation of UI2 chaches                                                                                                  
+TR0007300078LPD_CUST                                        Launchpad customizing                                                                                                               
+TR0007300077/UI2/SEMOBJ                                     Define Semantic Object - Customer                                                                                                   
+TR0007300076/UI2/FLPD_CUST                                  Fiori Lpd. Designer (client-spec.)                                                                                                  
+TR0007300074/UI2/FLP                                        SAP Fiori Launchpad                                                                                                                 
