@@ -8,6 +8,7 @@
   0000100063                                                Flight Data Model                                                                                                                   
   0000100032                                                User Administration                                                                                                                 
   0000100033                                                Lock Administration                                                                                                                 
+  0000100089                                                Gateway / OData                                                                                                                     
   0000100073                                                Fiori Launchpad                                                                                                                     
 TR0000100012ICON                                            Display Icons                                                                                                                       
 TR0000100015SMW0                                            SAP Web Repository                                                                                                                  
@@ -74,3 +75,4 @@ TR0007300078LPD_CUST                                        Launchpad customizin
 TR0007300077/UI2/SEMOBJ                                     Define Semantic Object - Customer                                                                                                   
 TR0007300076/UI2/FLPD_CUST                                  Fiori Lpd. Designer (client-spec.)                                                                                                  
 TR0007300074/UI2/FLP                                        SAP Fiori Launchpad                                                                                                                 
+TR0008900090/IWFND/CACHE_CLEANUP                            Cleanup of GW Model Cache                                                                                                           
