@@ -57,6 +57,7 @@ TR0004700048RZ10                                            Maintain Profile Par
 TR0004700049RZ11                                            Profile Parameter Maintenance                                                                                                       
 TR0005500056ZKRAM_HELLO_WORLD                               "Hello, world!" Transaction                                                                                                         
 TR0005500057ZKRAM_SOURCE_SCAN                               ABAP Source Scan                                                                                                                    
+TR0005500093ZKRAM_GOS_CHECK                                 Generic Object Services (GOS): Check                                                                                                
 TR0005500061ZKRAM_PACK_CHECK_PAR                            Display/Maintain Package Check Par.                                                                                                 
 TR0005500058ZKRAM_I18N_LANG_CONF                            i18n Language Configuration                                                                                                         
 TR0005500059ZKRAM_SAPHTTP_CHECK                             RFC Destination SAPHTTP: Check                                                                                                      
@@ -73,6 +74,8 @@ TR0006600069SPAU                                            Display Modified DE 
 TR0007300083/UI2/INVAL_CACHES                               Global Invalidation of UI2 chaches                                                                                                  
 TR0007300078LPD_CUST                                        Launchpad customizing                                                                                                               
 TR0007300077/UI2/SEMOBJ                                     Define Semantic Object - Customer                                                                                                   
+TR0007300091/UI2/SEMOBJ_SAP                                 Define Semantic Object - SAP                                                                                                        
+TR0007300092/UI2/FLPD_CONF                                  Fiori Lpd. Designer (cross-client)                                                                                                  
 TR0007300076/UI2/FLPD_CUST                                  Fiori Lpd. Designer (client-spec.)                                                                                                  
 TR0007300074/UI2/FLP                                        SAP Fiori Launchpad                                                                                                                 
 TR0008900090/IWFND/CACHE_CLEANUP                            Cleanup of GW Model Cache                                                                                                           
